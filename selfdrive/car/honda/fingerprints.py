@@ -296,6 +296,7 @@ FW_VERSIONS = {
       b'37805-5BB-L540\x00\x00',
       b'37805-5BB-L630\x00\x00',
       b'37805-5BB-L640\x00\x00',
+	  b'\x0bJ7502101767\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.transmission, 0x18da1ef1, None): [
       b'28101-5CG-A920\x00\x00',
@@ -332,6 +333,7 @@ FW_VERSIONS = {
       b'57114-TGG-L330\x00\x00',
       b'57114-TGK-T320\x00\x00',
       b'57114-TGL-G330\x00\x00',
+	  b'\x0b90601923221\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-TBA-C020\x00\x00',
@@ -345,6 +347,7 @@ FW_VERSIONS = {
       b'39990-TGG-J510\x00\x00',
       b'39990-TGL-E130\x00\x00',
       b'39990-TGN-E120\x00\x00',
+	  b'\x0c BK8K153602B
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-TBA-A060\x00\x00',
@@ -357,6 +360,7 @@ FW_VERSIONS = {
       b'77959-TGG-G110\x00\x00',
       b'77959-TGG-J320\x00\x00',
       b'77959-TGG-Z820\x00\x00',
+	  b'\x0bC19007W5P27\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36802-TBA-A150\x00\x00',
@@ -370,6 +374,7 @@ FW_VERSIONS = {
       b'36802-TGG-G130\x00\x00',
       b'36802-TGK-Q120\x00\x00',
       b'36802-TGL-G040\x00\x00',
+	  b'\x0e043819030428AD\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.fwdCamera, 0x18dab5f1, None): [
       b'36161-TBA-A130\x00\x00',
@@ -385,47 +390,19 @@ FW_VERSIONS = {
       b'36161-TGK-Q120\x00\x00',
       b'36161-TGL-G050\x00\x00',
       b'36161-TGL-G070\x00\x00',
+	  b'\x0e12101903211151\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TBA-A020\x00\x00',
       b'38897-TBA-A110\x00\x00',
+	  b'\x0cJ3481980\x00\x00\x00\x00,
     ],
     (Ecu.electricBrakeBooster, 0x18da2bf1, None): [
       b'39494-TGL-G030\x00\x00',
-    ],
-  },
-  CAR.HONDA_CIVIC_BOSCH_DIESEL: {
-    (Ecu.programmedFuelInjection, 0x18da10f1, None): [
-      b'37805-59N-G630\x00\x00',
-      b'37805-59N-G830\x00\x00',
-    ],
-    (Ecu.transmission, 0x18da1ef1, None): [
-      b'28101-59Y-G220\x00\x00',
-      b'28101-59Y-G620\x00\x00',
-    ],
-    (Ecu.vsa, 0x18da28f1, None): [
-      b'57114-TGN-E320\x00\x00',
-    ],
-    (Ecu.eps, 0x18da30f1, None): [
-      b'39990-TFK-G020\x00\x00',
-    ],
-    (Ecu.srs, 0x18da53f1, None): [
-      b'77959-TFK-G210\x00\x00',
-      b'77959-TGN-G220\x00\x00',
-    ],
-    (Ecu.fwdRadar, 0x18dab0f1, None): [
-      b'36802-TFK-G130\x00\x00',
-      b'36802-TGN-G130\x00\x00',
-    ],
-    (Ecu.shiftByWire, 0x18da0bf1, None): [
-      b'54008-TGN-E010\x00\x00',
-    ],
-    (Ecu.fwdCamera, 0x18dab5f1, None): [
-      b'36161-TFK-G130\x00\x00',
-      b'36161-TGN-G130\x00\x00',
-    ],
-    (Ecu.gateway, 0x18daeff1, None): [
-      b'38897-TBA-A020\x00\x00',
+	  
+    ],(Ecu.combinationMeter, 0x18da60f1, None): [
+      b'39494-TGL-G030\x00\x00',
+	  b'\x18J0919909\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
   CAR.HONDA_CRV: {
